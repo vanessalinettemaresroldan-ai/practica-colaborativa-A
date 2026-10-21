@@ -1,4 +1,3 @@
-/* Diseño general */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f0f8;
@@ -6,8 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/* Encabezado */
 header {
     background-color: #563568;
     color: white;
@@ -24,7 +21,6 @@ header p {
     font-size: 18px;
 }
 
-/* Menú de navegación */
 nav {
     background-color: #8b6ba8;
     text-align: center;
@@ -42,7 +38,6 @@ nav a:hover {
     color: #ffe59d;
 }
 
-/* Contenido principal */
 article {
     background-color: white;
     width: 80%;
@@ -53,14 +48,12 @@ article {
     box-shadow: 0 4px 10px #cccccc;
 }
 
-/* Títulos */
 h2 {
     color: #70458a;
     border-bottom: 2px solid #d7c1e8;
     padding-bottom: 8px;
 }
 
-/* Imágenes */
 img {
     width: 150px;
     height: 120px;
@@ -69,7 +62,6 @@ img {
     margin: 8px;
 }
 
-/* Video */
 video {
     display: block;
     max-width: 100%;
@@ -78,7 +70,6 @@ video {
     border-radius: 10px;
 }
 
-/* Párrafos y lista */
 p {
     line-height: 1.7;
 }
@@ -87,7 +78,6 @@ li {
     margin-bottom: 12px;
 }
 
-/* Pie de página */
 footer {
     background-color: #563568;
     color: white;
@@ -105,7 +95,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Adaptación para celulares */
 @media (max-width: 600px) {
     header h1 {
         font-size: 28px;
